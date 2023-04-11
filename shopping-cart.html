@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping cart</title>
+    <!--link css-->
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" href="../css/shopping-cart.css">
+    <link rel="shortcut icon" href="../images/shoe-icon2.png" type="image/x-icon">
+
+    <!--link icon-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+    <!--link font google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:wght@300;400;500;600;700;800;900&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--header section-->
+    <header>
+        <a href="#" class="logo" id="home-logo"> THANHQUOC <span>STORE</span></a>
+
+        <ul class="nav-bar">
+            <li><a href="index.html">Trang chủ</a></li>
+            <li><a href="#">Thông tin</a></li>
+            <li><a href="eommerce.html">Sản phẩm</a></li>
+            <li><a href="#">Liên hệ</a></li>
+            <li><a href="login.html">Đăng nhập</a></li>
+        </ul>
+
+        <div class="icons">
+            <a href="#"><i class='bx bx-search'></i></a>
+            <a href="#"><i class='bx bx-cart'></i></box-icon></a>
+            <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+    <!--shopping cart section-->
+    <div class="small-container cart-page">
+        <table>
+            <tr>
+                <th>Product</th>
+                <th>Quantity</th>
+                <th>Subtotal</th>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                    <img src="../images/shoe11.png" alt="">
+                    <div>
+                        <p>Shoe 1</p>
+                        <small>Price: $50.00</small>
+                        <br>
+                        <a href="">Remove</a>
+                    </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>$50.00</td>
+            </tr>
+
+            <tr>
+                <td>
+                    <div class="cart-info">
+                    <img src="../images/shoe7.png" alt="">
+                    <div>
+                        <p>Shoe 1</p>
+                        <small>Price: $60.00</small>
+                        <br>
+                        <a href="">Remove</a>
+                    </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>$60.00</td>
+            </tr>
+
+            <tr>
+                <td>
+                    <div class="cart-info">
+                    <img src="../images/shoe9.png" alt="">
+                    <div>
+                        <p>Shoe 1</p>
+                        <small>Price: $70.00</small>
+                        <br>
+                        <a href="">Remove</a>
+                    </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>$70.00</td>
+            </tr>
+        </table>
+
+        <div class="total-price">
+            <table>
+                <tr>
+                    <td>Subtotal</td>
+                    <td>$180.00</td>
+                </tr>
+                <tr>
+                    <td>Tax</td>
+                    <td>$30.00</td>
+                </tr>
+                <tr>
+                    <td>Total</td>
+                    <td>$150.00</td>
+                </tr>
+            </table>
+        </div>
+        <div class="checkout-btn">
+            <a href="checkout.html">check out</a>
+        </div>
+    </div>
+
+    
+
+    <!--contact section-->
+    <section class="contatc" id="contact">
+        <div class="main-contact">
+            <div class="contact-content">
+                <h4>Dịch vụ</h4>
+                <li><a href="#">Trang chủ</a></li>
+                <li><a href="#">Thông tin</a></li>
+                <li><a href="#">Sản phẩm</a></li>
+                <li><a href="#">Liên hệ</a></li>
+            </div> 
+
+            <div class="contact-content">
+                <h4>Cộng sự</h4>
+                <li><a href="#">Adidas</a></li>
+                <li><a href="#">Nike</a></li>
+                <li><a href="#">Puma</a></li>
+                <li><a href="#">Li-ning</a></li>
+            </div> 
+
+            <div class="contact-content">
+                <h4>Liên hệ</h4>
+                <li><a href="#">Liên hệ chúng tôi</a></li>
+                <li><a href="#">Tin tức</a></li>
+                <li><a href="#">Việc làm</a></li>
+                <li><a href="#">Faq</a></li>
+            </div> 
+
+            <div class="contact-content">
+                <h4>Theo dõi chúng tôi</h4>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Tiktok</a></li>
+                <li><a href="#">Twitter</a></li>
+            </div> 
+        </div>
+    </section>
+
+
+    <!--last text-->
+    <div class="last-text">
+        <p>Code by theQ</p>
+    </div>
+
+    <!--scroll top-->
+    <a href="#top" class="scroll-top">
+        <i class='bx bx-chevron-up'></i>
+    </a>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--js link-->
+    <script type="text/javascript" src="../js/script.js" ></script>
+</body>
+</html>
